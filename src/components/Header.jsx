@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header className={`bg-white text-black w-full sticky ${STICKY_POSITION_CLASS} z-40 shadow-lg`}>
     
-      <div className="flex justify-between items-center px-4"> 
+      <div className="flex justify-between items-center "> 
       
         <div className="flex items-center px-1 py-2">
           <img src={Logo} alt="Baby Kids Logo" className="h-8 sm:h-10 lg:h-12 w-auto" /> 
